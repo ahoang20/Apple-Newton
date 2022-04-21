@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background-color: #e5db9c;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1000px;
+}
+
+.cool-text {
+    color: palevioletred;
+    font-size: 100px;
+    font-family: 'Monofett', cursive;
+    text-align: center;
+}
+
+.first-section {
+    position: relative;
+    height: 350px;
+    background-color: #CCD4BF;
+    display: flex;
+}
+
+.first1 {
+    flex: 1 1 0;
+    display: flex;
+}
+
+.first1 img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 35px;
+    color: black;
+}
+
+.first2 {
+    flex: 1 1 0;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.second-section {
+    display: flex;
+    height: 350px;
+    background-color: #E7CBA9;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.second-section:hover img {
+    display: none;
+}
+
+.second-section:hover:after {
+    content: "The Apple Newton MessagePad";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.third-section {
+    height: 250px;
+    background-color: #EEBAB2;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline, inherit;
+}
+
+.third1 {
+    flex: 1 1 0;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.third2 {
+    flex: 1 1 0;
+    display: flex;
+}
+
+.third2 img {
+    width: 100%;
+    height: 250px;
+}
+
+.fourth-section {
+    display: flex;
+    background-color: #8DA47E;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fourth1 {
+    flex: 1 1 0;
+    text-decoration: none;
+}
+
+.fourth1:hover .article-name {
+    display: initial;
+}
+
+.fourth1:hover img {
+    display: none;
+}
+
+.fourth2 {
+    flex: 1 1 0;
+    text-decoration: none;
+}
+
+.fourth2:hover .article-name {
+    display: initial;
+}
+
+.fourth2:hover img {
+    display: none;
+}
+
+.fourth3 {
+    flex: 1 1 0;
+    text-decoration: none;
+}
+
+.fourth3:hover img {
+    display: none;
+}
+
+.article-name {
+    display: none;
+}
+
+.fourth3:hover .article-name {
+    display: initial;
+}
+
+.p1 {
+    font-size: 28px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.p2 {
+    font-size: 23px;
+    text-align: center;
+}

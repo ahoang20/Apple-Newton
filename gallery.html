@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="gallery.css">
+    <style>
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="font-size:300%;">Gallery</h2>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/applelogo.jpg">
+                <img src="media/applelogo.jpg" alt="Apple logo" width="600" height="400">
+            </a>
+            <div class="desc">This is the first Apple logo. A closer look at the image will show somebody sitting under a tree and an apple highlighted above them. Perhaps this is Isaac Newton? Perhaps he is an influence on the naming of the device. (Click the image to
+                enlarge it).</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/charger.jpg">
+                <img src="media/charger.jpg" alt="Apple Newton charger" class="center">
+            </a>
+            <div class="desc">Here is a picture of the charger for the Apple Newton. This is a 9 watt power adapter. (click image to enlarge)</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/newton1.jpg">
+                <img src="media/newton1.jpg" alt="Apple Newton" width="600" height="400">
+            </a>
+            <div class="desc">The Apple Newton, a gamechanging device for Apple inc. Development bagan in 1987 and sales of the first devices started in 1993. (click image to enlarge)</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/packagingfront.jpg">
+                <img src="media/packagingfront.jpg" alt="Front of packaging" width="600" height="400">
+            </a>
+            <div class="desc">Pictured, the front of some of the original packaging used to package and ship customers orders of the Apple Newton. (click image to enlarge)</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/packagingback.jpg">
+                <img src="media/packagingback.jpg" alt="back of packaging" width="600" height="400">
+            </a>
+            <div class="desc">Here is an image of the back of the box Apple Newton devices would have been sold in (click image to enlarge)</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/advert.jpg">
+                <img src="media/advert.jpg" alt="advert" width="600" height="400">
+            </a>
+            <div class="desc">Here is an advert by Apple for the Apple Newton. This advert dates back to 1993 (click image to enlarge)</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="media/manual2.jpg">
+                <img src="media/manual2.jpg" alt="manual" width="600" height="400">
+            </a>
+            <div class="desc">Here is an example of the original manuals customers would have recieved with their purchases. (click image to enlarge) </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+</body>
+
+</html>

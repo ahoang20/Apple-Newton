@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: 'Lexend Mega', sans-serif;
+    background-color: #f7a992;
+}
+
+.container {
+    background-color: #fdf0c4;
+    height: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.diamond {
+    border: 5px solid #f9968b;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: -50px;
+}
+
+.diamond h1 {
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color: white;
+    transform: rotate(-45deg);
+}
+
+.first-section {
+    position: relative;
+    height: 350px;
+    text-decoration: underline;
+}
+
+.animation {
+    width: 100%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    position: relative;
+}
+
+.animation:hover {
+    width: 50%;
+}
+
+.animation:hover::after {
+    width: 50%;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: calc(50% - 150px);
+    left: calc(50% + 100px);
+}
+
+.cool-text {
+    color: #f9968b;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.sick-subtitle {
+    font-size: 30px;
+    color: thistle;
+    font-style: italic;
+}
+
+.vintage {
+    width: 100%;
+    height: 350px;
+    filter: brightness(0.70);
+    text-decoration: underline;
+}
+
+.second-section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.apple-logo-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.apple-logo-section:hover img {
+    display: none;
+}
+
+.apple-logo-section:hover:after {
+    content: 'History';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.boxes {
+    height: 300px;
+    border: none;
+    flex: 1 1 0;
+    position: relative;
+}
+
+.third-section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5bfd3;
+}
+
+.gallery:hover i {
+    display: none;
+}
+
+.gallery:hover:after {
+    content: 'Gallery';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.compare {
+    background-color: #e6a57e;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.compare:hover i {
+    display: none;
+}
+
+.compare:hover:after {
+    content: 'Compare';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.where-to-buy {
+    background-color: #beb4c5;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.where-to-buy:hover i {
+    display: none;
+}
+
+.where-to-buy:hover:after {
+    content: 'Where to buy';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.faq {
+    background-color: #a1cdce;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.faq:hover i {
+    display: none;
+}
+
+.faq:hover:after {
+    content: 'FAQ';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.articles {
+    background-color: #e5db9c;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.articles:hover i {
+    display: none;
+}
+
+.articles:hover:after {
+    content: 'Articles';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.arrows {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}

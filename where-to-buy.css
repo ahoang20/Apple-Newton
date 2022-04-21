@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #beb4c5;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+    width: 1200px;
+    background-color: #bbc5b4;
+}
+
+.cool-text {
+    color: palevioletred;
+    font-size: 100px;
+    font-family: 'Monofett', cursive;
+}
+
+#logo {
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    font-size: 40px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-radius: 25px;
+    border: 5px solid palevioletred;
+    padding: 20px;
+    height: 150px;
+    margin: 20px;
+}
+
+i {
+    font-size: 20px;
+}
